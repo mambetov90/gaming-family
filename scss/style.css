@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1285px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.header-slide {
+  background: url(../images/playgaming-bg.png) no-repeat;
+  background-size: cover;
+  height: 810px;
+}
+
+.header-logo {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
