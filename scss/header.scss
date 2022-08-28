@@ -41,7 +41,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--sFontBody);
   line-height: 22px;
 }
 .container.header {
@@ -67,56 +67,4 @@
   a:last-child {
     padding-right: 0;
   }
-}
-.section-who-we-are {
-  background: url(../images/who-we-are-bg.png) no-repeat;
-  background-size: cover;
-  height: 780px;
-}
-.who-we-are-bg-title {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 190px;
-  line-height: 232px;
-  color: rgba(50, 50, 50, 0.28);
-  align-items: center;
-  text-align: center;
-}
-.who-we-are-title {
-  position: relative;
-  top: -130px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 59px;
-  color: var(--cWhite);
-  align-items: center;
-  text-align: center;
-}
-.who-we-are-subtitle {
-  position: relative;
-  top: -120px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: uppercase;
-  color: var(--cWhite);
-  align-items: center;
-  text-align: center;
-}
-.who-we-are-text {
-  margin-top: -30px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 33px;
-  text-align: center;
-  color: var(--cWhite);
-  align-items: center;
-  text-align: center;
 }
