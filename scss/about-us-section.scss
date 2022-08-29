@@ -1,6 +1,5 @@
 .section-who-we-are {
-  background: url(../images/who-we-are-bg.png) no-repeat,
-    url(../images/shadow-bg.png) left no-repeat;
+  background: url(../images/who-we-are-bg.png) no-repeat;
   background-size: cover;
   height: 780px;
 }
@@ -61,6 +60,9 @@
   color: var(--cWhite);
   justify-content: space-between;
   text-align: center;
+}
+.statistic-item {
+  display: block;
 }
 .statistic-games-counter,
 .statistic-streams-counter,
