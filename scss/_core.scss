@@ -1,8 +1,10 @@
 body {
     margin: 0;
-    background-color: #fff;
+    background-color: var(--cWhite);
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 
   *,
@@ -25,7 +27,6 @@ ol {
   list-style: none;
 }
 .container {
-    width: 100%;
     max-width: 1285px;
     padding: 0 80px;
     margin: 0 auto;
