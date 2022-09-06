@@ -1,0 +1,25 @@
+.shop-section {
+  background: url(../images/shop-bg.png) no-repeat;
+  background-size: cover;
+  height: 811px;
+}
+
+.shop-bg-title {
+  position: relative;
+  top: -160px;
+  font-weight: 900;
+  font-size: 190px;
+  color: rgba(255, 255, 255, 0.07);
+  text-align: center;
+  align-items: center;
+}
+
+.shop-title {
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--cWhite);
+  position: relative;
+  top: -300px;
+  text-align: center;
+  align-items: center;
+}
