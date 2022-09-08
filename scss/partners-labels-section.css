@@ -1,0 +1,17 @@
+.partners-labels-section {
+  background: url(../images/footer-bg.png) no-repeat;
+  background-size: cover;
+  height: 811px;
+}
+
+.labels-block {
+  border: 1px solid pink;
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labels-block img {
+  display: flex;
+  margin: 0 auto;
+}

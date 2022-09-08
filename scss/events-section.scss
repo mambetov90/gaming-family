@@ -41,14 +41,12 @@
   align-items: center;
   justify-content: center;
 }
-.events-schedule {
-}
 .events-schedule__info {
   color: var(--cWhite);
-    display: flex;
+  display: flex;
 }
 .events-schedule__info_date {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 .events-schedule__info_day {
   display: flex;
@@ -59,13 +57,13 @@
   font-weight: 900;
   font-size: 16px;
 }
-.events-schedule__info_title{
-    padding: 25px 0px  0px 35px;
-align-items: center;
-justify-content: left;
+.events-schedule__info_title {
+  padding: 25px 0px 0px 35px;
+  align-items: center;
+  justify-content: left;
 }
 .events-schedule__info_text {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 900;
   font-size: 24px;
 }
