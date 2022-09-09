@@ -1,54 +1,53 @@
 .shop-section {
-    background: url(../images/shop-bg.png) no-repeat;
-    background-size: cover;
-    height: 100%;
-  }
-  .shop-block {
-    max-width: 1485px;
-  }
-  .shop-bg-title {
-      position: relative;
-      top: -160px;
-    font-weight: 900;
-    font-size: 190px;
-    color: rgba(255, 255, 255, 0.07);
-    text-align: center;
-    align-items: center;
-  }
-  .shop-title {
-    font-weight: 900;
-    font-size: 48px;
-    color: var(--cWhite);
-    position: relative;
-    top: -300px;
-    text-align: center;
-    align-items: center;
-  }
-  .shop__merch {
-    margin-top: -200px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .shop__merch_bg {
-    background: url(../images/cap.svg) no-repeat center;
-    background-size: auto;
-    display: block;
-    height: 224px;
-    width: 300px;
-    object-fit: cover;
-    align-items: center;
-    border: 1px yellow solid;
-    margin-bottom: 10px;
-  }
-  .shop__merch_bg img {
-    margin: 0 auto;
-position: relative;
-top: 50%;
-transform: translateY(-50%);
-  }
-  .shop__merch_pic {
-margin: 0 auto;
-  }
+  background: url(../images/shop-bg.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.shop-block {
+  max-width: 1485px;
+}
+.shop-bg-title {
+  position: relative;
+  top: -160px;
+  font-weight: 900;
+  font-size: 190px;
+  color: rgba(255, 255, 255, 0.07);
+  text-align: center;
+  align-items: center;
+}
+.shop-title {
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--cWhite);
+  position: relative;
+  top: -300px;
+  text-align: center;
+  align-items: center;
+}
+.shop__merch {
+  margin-top: -200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop__merch_bg {
+  background: url(../images/cap.svg) no-repeat center;
+  background-size: auto;
+  display: block;
+  height: 224px;
+  width: 300px;
+  object-fit: cover;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.shop__merch_bg img {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shop__merch_pic {
+  margin: 0 auto;
+}
 .shop__merch_col {
   border: 1px red solid;
   max-width: 25%;
@@ -58,16 +57,16 @@ margin: 0 auto;
 }
 .shop__merch_col-title {
   font-weight: 500;
-  font-size: 16px;  
+  font-size: 16px;
   text-align: center;
-  
+
   color: var(--cWhite);
   margin-bottom: 10px;
 }
 .shop__merch_col-price {
   font-weight: 500;
-  font-size: 16px;  
+  font-size: 16px;
   text-align: center;
-  
+
   color: var(--cWhite);
 }

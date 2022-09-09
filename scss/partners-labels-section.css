@@ -5,7 +5,6 @@
 }
 
 .labels-block {
-  border: 1px solid pink;
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -14,4 +13,49 @@
 .labels-block img {
   display: flex;
   margin: 0 auto;
+}
+
+.bottom-menu {
+  padding: 0 50px;
+  max-width: 100%;
+}
+
+.menu__block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.menu__logo {
+  margin-right: 200px;
+}
+
+.menu__block_col {
+  display: block;
+  width: 33.3333%;
+  color: var(--cWhite);
+}
+
+.menu__title {
+  display: block;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  display: block;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social-media {
+  text-transform: capitalize;
+  font-weight: 500;
 }

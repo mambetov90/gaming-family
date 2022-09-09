@@ -1,1 +1,34 @@
+.footer {
+  background: url(../images/footer.png) no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+}
 
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  color: var(--cWhite);
+}
+
+.subscription-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.subscription-input {
+  padding: 0 5px 0 10px;
+  border: none;
+  border-bottom: 1px solid var(--cWhite);
+  background: transparent;
+}
+
+.subscription-title {
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.subscription-btn {
+  padding-left: 15px;
+}

@@ -493,7 +493,6 @@ img {
   width: 300px;
   object-fit: cover;
   align-items: center;
-  border: 1px yellow solid;
   margin-bottom: 10px;
 }
 
@@ -509,7 +508,6 @@ img {
 }
 
 .shop__merch_col {
-  border: 1px red solid;
   max-width: 25%;
   display: flex;
   flex-direction: column;
@@ -538,7 +536,6 @@ img {
 }
 
 .labels-block {
-  border: 1px solid pink;
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -547,4 +544,84 @@ img {
 .labels-block img {
   display: flex;
   margin: 0 auto;
+}
+
+.bottom-menu {
+  padding: 0 50px;
+  max-width: 100%;
+}
+
+.menu__block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.menu__logo {
+  margin-right: 200px;
+}
+
+.menu__block_col {
+  display: block;
+  width: 33.3333%;
+  color: var(--cWhite);
+}
+
+.menu__title {
+  display: block;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  display: block;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social-media {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.footer {
+  background: url(../images/footer.png) no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  color: var(--cWhite);
+}
+
+.subscription-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.subscription-input {
+  padding: 0 5px 0 10px;
+  border: none;
+  border-bottom: 1px solid var(--cWhite);
+  background: transparent;
+}
+
+.subscription-title {
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.subscription-btn {
+  padding-left: 15px;
 }
