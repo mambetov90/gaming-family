@@ -28,7 +28,6 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 88px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: center;
@@ -42,9 +41,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
-  line-height: 22px;
-}
-.container.header {
 }
 .navigation {
   flex-direction: row;
@@ -54,7 +50,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
-  line-height: 18px;
   text-transform: uppercase;
   color: var(--cWhite);
   align-items: center;
