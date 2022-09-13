@@ -10,8 +10,6 @@
 }
 
 .who-we-are-bg-title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 190px;
   color: rgba(50, 50, 50, 0.28);
@@ -22,10 +20,8 @@
 .who-we-are-title {
   position: relative;
   top: -130px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
@@ -34,8 +30,6 @@
 .who-we-are-subtitle {
   position: relative;
   top: -120px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -46,8 +40,6 @@
 
 .who-we-are-text {
   margin-top: -30px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: var(--sFontBody);
   text-align: center;
@@ -71,8 +63,6 @@
 .statistic-games-counter,
 .statistic-streams-counter,
 .statistic-teams-counter {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 64px;
   color: #d62027;
@@ -81,8 +71,6 @@
 .statistic-games-label,
 .statistic-streams-label,
 .statistic-teams-label {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;

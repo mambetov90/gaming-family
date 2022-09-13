@@ -37,8 +37,12 @@ ol {
 
 :root {
   --cWhite: #ffffff;
-  --cGray: #6F6F6F;
+  --cGray: #6f6f6f;
   --sFontBody: 18px;
+  --sFontSmall: 15px;
+  --sFontMedium: 16px;
+  --sFontHuge: 24px;
+  --sFontExtraLarge: 48px;
 }
 
 .section-main-intro {
@@ -70,7 +74,6 @@ ol {
   width: 100%;
   top: 62px;
   display: flex;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -84,8 +87,6 @@ ol {
   position: absolute;
   bottom: 15px;
   width: 100%;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
 }
@@ -94,10 +95,8 @@ ol {
   flex-direction: row;
   padding-top: 225px;
   background: #000000 transparent;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   text-transform: uppercase;
   color: var(--cWhite);
   align-items: center;
@@ -123,8 +122,6 @@ ol {
 }
 
 .who-we-are-bg-title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 190px;
   color: rgba(50, 50, 50, 0.28);
@@ -135,10 +132,8 @@ ol {
 .who-we-are-title {
   position: relative;
   top: -130px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
@@ -147,8 +142,6 @@ ol {
 .who-we-are-subtitle {
   position: relative;
   top: -120px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -159,8 +152,6 @@ ol {
 
 .who-we-are-text {
   margin-top: -30px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: var(--sFontBody);
   text-align: center;
@@ -184,8 +175,6 @@ ol {
 .statistic-games-counter,
 .statistic-streams-counter,
 .statistic-teams-counter {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 64px;
   color: #d62027;
@@ -194,8 +183,6 @@ ol {
 .statistic-games-label,
 .statistic-streams-label,
 .statistic-teams-label {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -211,7 +198,6 @@ ol {
 .our-family-bg-title {
   display: flex;
   margin-top: -120px;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
   font-size: 190px;
@@ -220,10 +206,8 @@ ol {
 
 .our-family-title {
   margin-top: -135px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
@@ -231,8 +215,6 @@ ol {
 
 .our-family-subtitle {
   padding-top: 18px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -329,7 +311,7 @@ img {
 
 .event-title {
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   margin-top: -120px;
   margin-right: 210px;
@@ -355,7 +337,7 @@ img {
 
 .events-schedule__info_month-year {
   font-weight: 900;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
 }
 
 .events-schedule__info_title {
@@ -367,12 +349,12 @@ img {
 .events-schedule__info_text {
   padding-bottom: 10px;
   font-weight: 900;
-  font-size: 24px;
+  font-size: var(--sFontHuge);
 }
 
 .events-schedule__info_location {
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
 }
 
 .events-schedule__info_location span {
@@ -397,7 +379,7 @@ img {
 
 .news-title {
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   position: relative;
   top: -360px;
@@ -410,12 +392,11 @@ img {
   margin-top: -300px;
 }
 
-.news__articles_col {
+.news__col {
   color: var(--cWhite);
   margin-right: 50px;
 }
-
-.news__articles_col:last-child {
+.news__col:last-child {
   margin-right: 0;
 }
 
@@ -425,13 +406,13 @@ img {
 
 .news__article_content-title {
   font-weight: 900;
-  font-size: 24px;
+  font-size: var(--sFontHuge);
   margin-bottom: 30px;
 }
 
 .news__article_content-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
   color: var(--cGray);
   margin-bottom: 35px;
 }
@@ -458,7 +439,7 @@ img {
 
 .shop-title {
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   position: relative;
   top: -300px;
@@ -475,7 +456,6 @@ img {
 .shop__merch_bg {
   background: url(../images/cap.svg) no-repeat center;
   background-size: auto;
-  display: block;
   height: 224px;
   width: 305px;
   max-height: 100%;
@@ -483,29 +463,20 @@ img {
   object-fit: cover;
   align-items: center;
   margin-bottom: 10px;
-}
-
-.shop__merch_bg img {
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.shop__merch_pic {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .shop__merch_col {
   max-width: 25%;
   display: flex;
   flex-direction: column;
-  margin: 5px 5px 5px 5px;
+  margin: 5px;
 }
 
 .shop__merch_col-title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
   text-align: center;
   color: var(--cWhite);
   margin-bottom: 10px;
@@ -513,7 +484,7 @@ img {
 
 .shop__merch_col-price {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
   text-align: center;
   color: var(--cWhite);
 }
@@ -563,7 +534,7 @@ img {
   display: block;
   margin-bottom: 45px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
 
@@ -571,7 +542,7 @@ img {
   display: block;
   padding-bottom: 15px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
 
@@ -607,10 +578,16 @@ img {
 
 .subscription-title {
   font-weight: 400;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   padding-right: 5px;
 }
 
 .subscription-btn {
-  padding-left: 15px;
+  content: "";
+  position: relative;
+  margin-left: 15px;
+  border: 2px solid #ffffff;
+  padding: 3px 10px 6px 15px;
+  display: inline-block;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
 }

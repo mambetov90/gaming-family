@@ -39,7 +39,7 @@
 
 .event-title {
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   margin-top: -120px;
   margin-right: 210px;
@@ -65,7 +65,7 @@
 
 .events-schedule__info_month-year {
   font-weight: 900;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
 }
 
 .events-schedule__info_title {
@@ -77,12 +77,12 @@
 .events-schedule__info_text {
   padding-bottom: 10px;
   font-weight: 900;
-  font-size: 24px;
+  font-size: var(--sFontHuge);
 }
 
 .events-schedule__info_location {
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
 }
 
 .events-schedule__info_location span {

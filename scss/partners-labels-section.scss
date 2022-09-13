@@ -36,14 +36,14 @@
   display: block;
   margin-bottom: 45px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
 .menu__item {
   display: block;
   padding-bottom: 15px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
 .social-media {

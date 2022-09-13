@@ -2,12 +2,10 @@
   position: relative;
   background: url(../images/our-family-bg.png) no-repeat;
   background-size: cover;
-  // height: 810px;
 }
 .our-family-bg-title {
   display: flex;
   margin-top: -120px;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
   font-size: 190px;
@@ -15,18 +13,14 @@
 }
 .our-family-title {
   margin-top: -135px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
 }
 .our-family-subtitle {
   padding-top: 18px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -51,8 +45,6 @@
   height: 51px;
   cursor: pointer;
   z-index: 1;
-}
-.arrow {
 }
 .player-col {
   justify-content: space-between;

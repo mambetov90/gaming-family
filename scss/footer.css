@@ -25,10 +25,16 @@
 
 .subscription-title {
   font-weight: 400;
-  font-size: 15px;
+  font-size: var(--sFontSmall);
   padding-right: 5px;
 }
 
 .subscription-btn {
-  padding-left: 15px;
+  content: "";
+  position: relative;
+  margin-left: 15px;
+  border: 2px solid #ffffff;
+  padding: 3px 10px 6px 15px;
+  display: inline-block;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
 }

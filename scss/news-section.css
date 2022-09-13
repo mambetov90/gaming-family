@@ -16,7 +16,7 @@
 
 .news-title {
   font-weight: 900;
-  font-size: 48px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   position: relative;
   top: -360px;
@@ -29,12 +29,11 @@
   margin-top: -300px;
 }
 
-.news__articles_col {
+.news__col {
   color: var(--cWhite);
   margin-right: 50px;
 }
-
-.news__articles_col:last-child {
+.news__col:last-child {
   margin-right: 0;
 }
 
@@ -44,13 +43,13 @@
 
 .news__article_content-title {
   font-weight: 900;
-  font-size: 24px;
+  font-size: var(--sFontHuge);
   margin-bottom: 30px;
 }
 
 .news__article_content-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: var(--sFontMedium);
   color: var(--cGray);
   margin-bottom: 35px;
 }
