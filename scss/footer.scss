@@ -24,13 +24,32 @@
   font-size: var(--sFontSmall);
   padding-right: 5px;
 }
-.subscription-btn {
-  content: "";
+.btn {
+  border: 3px solid var(--cWhite);
+  padding-right: 5px;
   position: relative;
-  margin-left: 15px;
-  border: 2px solid #ffffff;
-  padding: 3px 10px 6px 15px;
-  display: inline-block;
-
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 22% 100%);
+  margin-left: 20px;
+}
+.subscription-btn {
+  position: relative;
+  background: black;
+}
+.subscription-btn:before {
+  position: absolute;
+  border-bottom: 25px solid transparent;
+  border-right: 20px solid var(--cWhite);
+  content: "";
+  height: 0;
+  left: -22px;
+  top: -3px;
+}
+.subscription-btn:after {
+  position: absolute;
+  border-bottom: 19px solid transparent;
+  border-right: 16px solid black;
+  border-top: 0 solid transparent;
+  content: "";
+  height: 0px;
+  left: -16px;
+  top: 0;
 }
