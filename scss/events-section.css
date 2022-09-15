@@ -29,6 +29,7 @@
 }
 
 .event-bg-title {
+  display: flex;
   font-weight: 900;
   font-size: 190px;
   color: rgba(71, 71, 71, 0.22);
@@ -86,5 +87,5 @@
 }
 
 .events-schedule__info_location span {
-  color: #d62027;
+  color: var(--cRed);
 }

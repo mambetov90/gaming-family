@@ -23,6 +23,10 @@
   background: transparent;
 }
 
+.subscription-input[placeholder] {
+  color: var(--cWhite);
+}
+
 .subscription-title {
   font-weight: 400;
   font-size: var(--sFontSmall);
@@ -39,6 +43,7 @@
 .subscription-btn {
   position: relative;
   background: black;
+  cursor: pointer;
 }
 
 .subscription-btn:before {

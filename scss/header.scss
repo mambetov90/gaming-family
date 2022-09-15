@@ -41,7 +41,7 @@
     content: "";
     position: absolute;
     border-bottom: 88px solid transparent;
-    border-right: 41px solid #d62027;
+    border-right: 41px solid var(--cRed);
     top: 0px;
     left: 30px;
     z-index: -1;
@@ -50,9 +50,10 @@
     content: "";
     position: absolute;
     border-bottom: 88px solid transparent;
-    border: 44px solid #d62027;
+    border: 44px solid var(--cRed);
+    top: 0;
     left: 70px;
-    width: 285px;
+    width: 265px;
     z-index: -1;
   }
 }
