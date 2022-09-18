@@ -1,0 +1,34 @@
+.team-block {
+  background: url(../images/team-block-bg.png) no-repeat;
+  background-size: cover;
+  height: 900px;
+  padding-top: 30px;
+}
+.container {
+  max-width: 1250px;
+}
+.team-container {
+  display: flex;
+}
+.team-content {
+  width: 50%;
+}
+.logo-block {
+  display: flex;
+  color: var(--cWhite);
+}
+.logo-bg-title {
+  color: rgba(255, 255, 255, 0.04);
+  font-weight: 900;
+  font-size: 190px;
+}
+.logo-title {
+  font-weight: 900;
+  font-size: 48px;
+}
+.team-content__text {
+  color: var(--cWhite);
+}
+.team-img {
+  width: 50%;
+}
