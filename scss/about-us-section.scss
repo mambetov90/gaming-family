@@ -1,42 +1,54 @@
 .section-who-we-are {
   background: url(../images/who-we-are-bg.png) no-repeat;
   background-size: cover;
-  height: 780px;
+  padding-bottom: 120px;
 }
 .shadow-bg {
   height: 100%;
   background: url(../images/shadow-bg.png) left 0px top 50px no-repeat;
 }
 .who-we-are-bg-title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 190px;
-  line-height: 232px;
   color: rgba(50, 50, 50, 0.28);
   align-items: center;
   text-align: center;
 }
 .who-we-are-title {
+  max-width: 400px;
   position: relative;
   top: -130px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
-  font-size: 48px;
-  line-height: 59px;
+  font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+.who-we-are-title:before {
+  content: "";
+  position: absolute;
+  border-top: 60px solid transparent;
+  border-left: 31px solid var(--cRed);
+  top: 0px;
+  left: 299px;
+  z-index: -1;
+}
+.who-we-are-title:after {
+  content: "";
+  position: absolute;
+  border-bottom: 93px solid transparent;
+  border: 30px solid var(--cRed);
+  left: 47px;
+  width: 252px;
+  z-index: -1;
 }
 .who-we-are-subtitle {
   position: relative;
   top: -120px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
-  line-height: 22px;
   text-transform: uppercase;
   color: var(--cWhite);
   align-items: center;
@@ -44,11 +56,8 @@
 }
 .who-we-are-text {
   margin-top: -30px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: var(--sFontBody);
-  line-height: 33px;
   text-align: center;
   color: var(--cWhite);
   align-items: center;
@@ -67,21 +76,15 @@
 .statistic-games-counter,
 .statistic-streams-counter,
 .statistic-teams-counter {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 900;
   font-size: 64px;
-  line-height: 78px;
-  color: #d62027;
+  color: var(--cRed);
 }
 .statistic-games-label,
 .statistic-streams-label,
 .statistic-teams-label {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: var(--sFontBody);
-  line-height: 22px;
   text-transform: uppercase;
   color: var(--cWhite);
 }

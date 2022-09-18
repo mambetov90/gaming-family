@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "sass --no-source-map --watch .",
-    "prettier": "prettier --write \"index.html\""
+    "prettier": "prettier --write **.{html,scss}"
   },
   "repository": {
     "type": "git",

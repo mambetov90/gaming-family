@@ -1,11 +1,13 @@
 body {
-    margin: 0;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  background-color: var(--cWhite);
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
 }
 
-  *,
+*,
 *:before,
 *:after {
   box-sizing: border-box;
@@ -25,8 +27,7 @@ ol {
   list-style: none;
 }
 .container {
-    width: 100%;
-    max-width: 1285px;
-    padding: 0 80px;
-    margin: 0 auto;
+  max-width: 1285px;
+  padding: 0 80px;
+  margin: 0 auto;
 }
