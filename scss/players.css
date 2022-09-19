@@ -1,0 +1,41 @@
+.players-block {
+  position: relative;
+  background: url(../images/players-bg.png) no-repeat;
+  background-size: cover;
+  height: 811px;
+}
+
+.players-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.players__col {
+  width: 33.3333%;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+}
+
+.players__col_bg {
+  background: url(../images/inde-bg.png) no-repeat center;
+  background-size: auto;
+  height: 351px;
+  width: 432px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.players__col_person {
+  display: block;
+  position: absolute;
+  top: 43%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}

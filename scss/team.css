@@ -5,38 +5,73 @@
   padding-top: 30px;
 }
 
-.container {
-  max-width: 1250px;
+.team {
+  max-width: 1500px;
 }
 
 .team-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .team-content {
   width: 50%;
 }
 
-.logo-block {
-  display: flex;
+.logo-team-block {
+  position: relative;
+  display: block;
   color: var(--cWhite);
+  align-items: center;
+  text-align: center;
 }
 
-.logo-bg-title {
+.logo-team-bg-title {
   color: rgba(255, 255, 255, 0.04);
   font-weight: 900;
   font-size: 190px;
 }
 
-.logo-title {
+.logo-team-title {
   font-weight: 900;
   font-size: 48px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo-team-title:before {
+  content: "";
+  position: absolute;
+  border-top: 60px solid transparent;
+  border-right: 42px solid var(--cRed);
+  top: 0px;
+  left: 33px;
+  z-index: -1;
+}
+.logo-team-title:after {
+  content: "";
+  position: absolute;
+  border: 30px solid var(--cRed);
+  top: 0px;
+  left: 74px;
+  width: 82px;
+  z-index: -1;
 }
 
 .team-content__text {
   color: var(--cWhite);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 500;
 }
 
 .team-img {
   width: 50%;
+}
+
+.wolsung-wall {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }

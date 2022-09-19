@@ -788,7 +788,7 @@ img {
 .team-members__img_shadow-bg {
   z-index: 1;
   position: absolute;
-  top: 80%;
+  top: 84%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -800,38 +800,115 @@ img {
   padding-top: 30px;
 }
 
-.container {
-  max-width: 1250px;
+.team {
+  max-width: 1500px;
 }
 
 .team-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .team-content {
   width: 50%;
 }
 
-.logo-block {
-  display: flex;
+.logo-team-block {
+  position: relative;
+  display: block;
   color: var(--cWhite);
+  align-items: center;
+  text-align: center;
 }
 
-.logo-bg-title {
+.logo-team-bg-title {
   color: rgba(255, 255, 255, 0.04);
   font-weight: 900;
   font-size: 190px;
 }
 
-.logo-title {
+.logo-team-title {
   font-weight: 900;
   font-size: 48px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo-team-title:before {
+  content: "";
+  position: absolute;
+  border-top: 60px solid transparent;
+  border-right: 42px solid var(--cRed);
+  top: 0px;
+  left: 33px;
+  z-index: -1;
+}
+.logo-team-title:after {
+  content: "";
+  position: absolute;
+  border: 30px solid var(--cRed);
+  top: 0px;
+  left: 74px;
+  width: 82px;
+  z-index: -1;
 }
 
 .team-content__text {
   color: var(--cWhite);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 500;
 }
 
 .team-img {
   width: 50%;
+}
+
+.wolsung-wall {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.players-block {
+  position: relative;
+  background: url(../images/players-bg.png) no-repeat;
+  background-size: cover;
+  height: 811px;
+}
+
+.players-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.players__col {
+  width: 33.3333%;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+}
+
+.players__col_bg {
+  background: url(../images/inde-bg.png) no-repeat center;
+  background-size: auto;
+  height: 351px;
+  width: 432px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.players__col_person {
+  display: block;
+  position: absolute;
+  top: 43%;
+  left: 75%;
+  transform: translate(-50%, -50%);
 }
