@@ -67,6 +67,7 @@
   transform: translate(-50%, -50%);
 }
 .team-members {
+  position: relative;
     margin: 35px 0;
     width: 100%;
     max-height: 100%;
@@ -81,7 +82,7 @@
 .team-members__img_shadow-bg {
     z-index: 1;
     position: absolute;
-    top: 84%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
