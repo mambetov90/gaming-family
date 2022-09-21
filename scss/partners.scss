@@ -1,0 +1,38 @@
+.partners-block {
+  position: relative;
+  background: url(../images/partners-bg.png) no-repeat;
+  background-size: cover;
+  height: 811px;
+}
+.labels-block {
+  margin-top: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.menu__logo {
+  margin-right: 200px;
+}
+.menu__block_col {
+  display: block;
+  width: 33.3333%;
+  color: var(--cWhite);
+}
+.menu__title {
+  display: block;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: var(--sFontSmall);
+  text-transform: uppercase;
+}
+.menu__item {
+  display: block;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: var(--sFontSmall);
+  text-transform: uppercase;
+}
+.social-media {
+  text-transform: capitalize;
+  font-weight: 500;
+}
