@@ -32,6 +32,7 @@
   margin-top: -200px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .shop__merch_bg {
@@ -69,13 +70,14 @@
   width: 16px;
   bottom: 12px;
   right: 12px;
+  cursor: pointer;
 }
 
 .shop__merch_col {
-  max-width: 25%;
+  max-width: 20%;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 20px;
 }
 
 .shop__merch_col-title {

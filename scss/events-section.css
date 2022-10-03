@@ -21,6 +21,7 @@
 
 .events-block {
   width: 55%;
+  position: relative;
 }
 
 .poster-block {
@@ -35,7 +36,12 @@
   color: rgba(71, 71, 71, 0.22);
   align-items: center;
   text-align: right;
-  justify-content: right;
+  padding-left: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .event-bg-title {
+    font-size: 160px;
+  }
 }
 
 .event-title {
@@ -47,6 +53,10 @@
   float: right;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .events-schedule__info {

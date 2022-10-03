@@ -2,6 +2,8 @@
   background: url(../images/playgaming-bg.png) no-repeat;
   background-size: cover;
   height: 810px;
+  // flex-grow: 1;
+  // flex-shrink: 0;
 }
 .main-top-logo {
   display: block;
@@ -75,7 +77,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-
+  margin: 0 auto;
   a {
     padding-right: 35px;
   }

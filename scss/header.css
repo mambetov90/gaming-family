@@ -80,6 +80,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .navigation a {
   padding-right: 35px;

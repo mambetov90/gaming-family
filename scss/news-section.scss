@@ -16,21 +16,20 @@
   font-weight: 900;
   font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
-  position: relative;
-  top: -360px;
+  top: -320px;
   text-align: center;
   align-items: center;
+  position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .news__articles {
   display: flex;
   margin-top: -300px;
+  gap: 65px;
 }
 .news__col {
   color: var(--cWhite);
-  margin-right: 50px;
-  &:last-child {
-    margin-right: 0;
-  }
 }
 .news__article_content {
   margin: 30px 25px 0 25px;

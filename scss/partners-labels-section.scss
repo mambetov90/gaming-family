@@ -11,10 +11,11 @@
 .labels-block img {
   display: flex;
   margin: 0 auto;
+  ;
 }
 .bottom-menu {
   padding: 0 50px;
-  max-width: 100%;
+  max-width: 1285px;
 }
 .menu__block {
   display: flex;
@@ -22,7 +23,7 @@
   align-items: stretch;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 250px;
+  padding: 200px 0 20px 0;
 }
 .menu__logo {
   margin-right: 200px;
