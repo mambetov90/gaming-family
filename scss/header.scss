@@ -22,6 +22,9 @@
   color: var(--cWhite);
   z-index: 1;
 }
+.main-title-bg {
+  padding: 0 20px 0 20px;
+}
 .main-title-text {
   position: absolute;
   width: 100%;
@@ -34,6 +37,9 @@
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
+  }
   span {
     position: relative;
     padding: 0 20px;
@@ -65,6 +71,9 @@
   width: 100%;
   font-weight: 600;
   font-size: var(--sFontBody);
+  @media screen and (max-width: 768px) {
+    font-size: var(--sFontSmall);
+  }
 }
 .navigation {
   flex-direction: row;
@@ -78,8 +87,17 @@
   text-align: center;
   justify-content: space-between;
   margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
   a {
     padding-right: 35px;
+    color: var(--cWhite);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover {
+    color: var(--cGray);
   }
   a:last-child {
     padding-right: 0;

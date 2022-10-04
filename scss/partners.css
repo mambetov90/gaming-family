@@ -8,12 +8,18 @@
 .labels-block {
   display: flex;
   flex-wrap: wrap;
-  padding: 250px 10px 0 10px;
+  padding: 70px 10px 0 10px;
   max-width: 1285px;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .labels-block img {
+    padding: 0 10px;
+    max-width: 100px;
+  }
 }
 
 .team-menu__block {

@@ -4,6 +4,12 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .our-family {
+    padding-top: 50px;
+  }
+}
+
 .our-family-bg-title {
   display: flex;
   margin-top: -120px;
@@ -19,6 +25,12 @@
     font-size: 160px;
   }
 }
+@media screen and (max-width: 1100px) {
+  .our-family-bg-title {
+    font-size: 95px;
+    padding: 0 20px 0 20px;
+  }
+}
 
 .our-family-title {
   margin-top: -135px;
@@ -27,6 +39,12 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .our-family-title {
+    font-size: 30px;
+    margin-top: -70px;
+  }
 }
 
 .our-family-subtitle {
@@ -37,6 +55,11 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .our-family-subtitle {
+    font-size: var(--sFontSmall);
+  }
 }
 
 .carousel-players {
@@ -57,6 +80,12 @@
   height: 51px;
   cursor: pointer;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .arrow-btn {
+    width: 27px;
+    height: 27px;
+  }
 }
 
 .player-col {

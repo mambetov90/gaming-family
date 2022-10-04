@@ -14,7 +14,12 @@
   align-items: center;
   text-align: center;
   @media screen and (max-width: 1100px) {
-    font-size: 150px;} 
+    font-size: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 100px;
+    padding: 0 20px 0 20px;
+  }
 }
 .who-we-are-title {
   max-width: 400px;
@@ -27,6 +32,10 @@
   text-align: center;
   margin: 0 auto;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    top: -80px;
+  }
 }
 .who-we-are-title:before {
   content: "";
@@ -36,6 +45,10 @@
   top: 0px;
   left: 299px;
   z-index: -1;
+  @media screen and (max-width: 768px) {
+    border-top: 44px solid transparent;
+    border-left: 30px solid var(--cRed);
+  }
 }
 .who-we-are-title:after {
   content: "";
@@ -45,6 +58,12 @@
   left: 47px;
   width: 252px;
   z-index: -1;
+  @media screen and (max-width: 768px) {
+    border-bottom: 95px solid transparent;
+    border: 22px solid var(--cRed);
+    left: 74px;
+    width: 226px;
+  }
 }
 .who-we-are-subtitle {
   position: relative;
@@ -55,6 +74,10 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: var(--sFontSmall);
+    top: -65px;
+  }
 }
 .who-we-are-text {
   margin-top: -30px;
@@ -64,6 +87,9 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: 11px;
+  }
 }
 .statistics {
   padding-top: 75px;
@@ -81,6 +107,9 @@
   font-weight: 900;
   font-size: 64px;
   color: var(--cRed);
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
 }
 .statistic-games-label,
 .statistic-streams-label,
@@ -89,4 +118,7 @@
   font-size: var(--sFontBody);
   text-transform: uppercase;
   color: var(--cWhite);
+  @media screen and (max-width: 768px) {
+    font-size: 11px;
+  }
 }

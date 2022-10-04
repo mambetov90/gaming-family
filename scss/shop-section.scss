@@ -5,6 +5,9 @@
 }
 .shop-block {
   max-width: 1485px;
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
 }
 .shop-bg-title {
   position: relative;
@@ -14,6 +17,9 @@
   color: rgba(255, 255, 255, 0.07);
   text-align: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    top: -60px;
+  }
 }
 .shop-title {
   font-weight: 900;
@@ -23,12 +29,18 @@
   top: -300px;
   text-align: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    top: -190px;
+  }
 }
 .shop__merch {
   margin-top: -200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    margin-top: -100px;
+  }
 }
 .shop__merch_bg {
   background: url(../images/cap.svg) no-repeat center;
@@ -70,6 +82,9 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
+  @media screen and (max-width: 768px) {
+    max-width: 42%;
+  }
 }
 .shop__merch_col-title {
   font-weight: 500;

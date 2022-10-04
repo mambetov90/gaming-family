@@ -15,6 +15,9 @@
   object-fit: contain;
   display: block;
   margin: auto auto;
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
 }
 .events-block {
   width: 55%;
@@ -23,6 +26,8 @@
 .poster-block {
   width: 711px;
   height: 510px;
+  @media screen and (max-width: 768px) {
+  }
 }
 .event-bg-title {
   display: flex;
@@ -33,7 +38,11 @@
   text-align: right;
   padding-left: 20px;
   @media screen and (max-width: 1200px) {
-    font-size: 160px;}
+    font-size: 160px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 80px;
+  }
 }
 .event-title {
   font-weight: 900;
@@ -46,8 +55,12 @@
   justify-content: center;
   position: absolute;
   top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    margin-top: -198px;
+  }
 }
 .events-schedule__info {
   color: var(--cWhite);
@@ -55,29 +68,47 @@
 }
 .events-schedule__info_date {
   padding-left: 30px;
+  @media screen and (max-width: 768px) {
+    padding-left: 10px;
+  }
 }
 .events-schedule__info_day {
   display: flex;
   font-weight: 900;
   font-size: 72px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 .events-schedule__info_month-year {
   font-weight: 900;
   font-size: var(--sFontMedium);
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 .events-schedule__info_title {
   padding: 25px 0px 0px 35px;
   align-items: center;
   justify-content: left;
+  @media screen and (max-width: 768px) {
+    padding-left: 10px;
+  }
 }
 .events-schedule__info_text {
   padding-bottom: 10px;
   font-weight: 900;
   font-size: var(--sFontHuge);
+  @media screen and (max-width: 768px) {
+    font-size: 13px;
+  }
 }
 .events-schedule__info_location {
   font-weight: 700;
   font-size: var(--sFontSmall);
+  @media screen and (max-width: 768px) {
+    font-size: 9px;
+  }
 }
 .events-schedule__info_location span {
   color: var(--cRed);

@@ -3,6 +3,11 @@
   background: url(../images/our-family-bg.png) no-repeat;
   background-size: cover;
 }
+.our-family {
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+  }
+}
 .our-family-bg-title {
   display: flex;
   margin-top: -120px;
@@ -13,7 +18,12 @@
   align-items: center;
   text-align: center;
   @media screen and (max-width: 1100px) {
-    font-size: 160px;} 
+    font-size: 160px;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 95px;
+    padding: 0 20px 0 20px;
+  }
 }
 .our-family-title {
   margin-top: -135px;
@@ -22,6 +32,10 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    margin-top: -70px;
+  }
 }
 .our-family-subtitle {
   padding-top: 18px;
@@ -31,6 +45,9 @@
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: var(--sFontSmall);
+  }
 }
 .carousel-players {
   display: flex;
@@ -49,6 +66,10 @@
   height: 51px;
   cursor: pointer;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    width: 27px;
+    height: 27px;
+  }
 }
 .player-col {
   justify-content: space-between;
