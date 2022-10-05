@@ -44,6 +44,10 @@
   font-weight: 700;
   font-size: var(--sFontSmall);
   text-transform: uppercase;
+  a {
+    color: var(--cWhite);
+    text-decoration: none;
+  }
 }
 .social-media {
   text-transform: capitalize;

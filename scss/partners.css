@@ -34,11 +34,21 @@
 .menu__logo {
   margin-right: 200px;
 }
+@media screen and (max-width: 768px) {
+  .menu__logo {
+    margin-right: 100px;
+  }
+}
 
 .menu__block_col {
   display: block;
   width: 15%;
   color: var(--cWhite);
+}
+@media screen and (max-width: 768px) {
+  .menu__block_col {
+    width: 50%;
+  }
 }
 
 .menu__title {
@@ -48,6 +58,11 @@
   font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .menu__title {
+    font-size: 14px;
+  }
+}
 
 .menu__item {
   display: block;
@@ -55,6 +70,11 @@
   font-weight: 700;
   font-size: var(--sFontSmall);
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .menu__item {
+    font-size: 12px;
+  }
 }
 
 .social-media {

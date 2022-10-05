@@ -15,12 +15,22 @@
 .sign {
   padding-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  .sign {
+    font-size: 12px;
+  }
+}
 
 .subscription-form {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .subscription-form {
+    max-width: 350px;
+  }
 }
 
 .subscription-input {
@@ -40,12 +50,24 @@
   padding-right: 5px;
   width: 300px;
 }
+@media screen and (max-width: 768px) {
+  .subscription-title {
+    font-size: 12px;
+    width: 50%;
+  }
+}
 
 .btn {
   border: 3px solid var(--cWhite);
   padding: 6px 10px;
   position: relative;
   margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 12px;
+    border: 2px solid var(--cWhite);
+  }
 }
 
 .subscription-btn {
@@ -63,6 +85,13 @@
   left: -32px;
   top: -9px;
 }
+@media screen and (max-width: 768px) {
+  .subscription-btn:before {
+    border-bottom: 32px solid transparent;
+    left: -31px;
+    top: -8px;
+  }
+}
 
 .subscription-btn:after {
   position: absolute;
@@ -73,4 +102,18 @@
   height: 0px;
   left: -23px;
   top: -6px;
+}
+@media screen and (max-width: 768px) {
+  .subscription-btn:after {
+    border-bottom: 28px solid transparent;
+    border-right: 16px solid black;
+    left: -25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .email-logo img {
+    height: 80%;
+    width: 80%;
+  }
 }

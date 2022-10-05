@@ -30,11 +30,17 @@
 }
 .menu__logo {
   margin-right: 200px;
+  @media screen and (max-width: 768px) {
+    margin-right: 100px;
+  }
 }
 .menu__block_col {
   display: block;
   width: 15%;
   color: var(--cWhite);
+  @media screen and (max-width: 768px) {
+    width: 50%;
+  }
 }
 .menu__title {
   display: block;
@@ -42,6 +48,9 @@
   font-weight: 700;
   font-size: var(--sFontSmall);
   text-transform: uppercase;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 }
 .menu__item {
   display: block;
@@ -49,6 +58,9 @@
   font-weight: 700;
   font-size: var(--sFontSmall);
   text-transform: uppercase;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 .social-media {
   text-transform: capitalize;

@@ -89,6 +89,11 @@ ol {
   text-align: center;
   justify-content: center;
 }
+@media screen and (max-width: 1200px) {
+  .main-title-text {
+    font-size: 60px;
+  }
+}
 @media screen and (max-width: 768px) {
   .main-title-text {
     font-size: 50px;
@@ -125,6 +130,11 @@ ol {
   width: 100%;
   font-weight: 600;
   font-size: var(--sFontBody);
+}
+@media screen and (max-width: 1200px) {
+  .main-title-subtext {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 768px) {
   .main-title-subtext {
@@ -176,14 +186,14 @@ ol {
 
 .who-we-are-bg-title {
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(50, 50, 50, 0.28);
   align-items: center;
   text-align: center;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .who-we-are-bg-title {
-    font-size: 150px;
+    font-size: 140px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -205,6 +215,12 @@ ol {
   margin: 0 auto;
   z-index: 1;
 }
+@media screen and (max-width: 1200px) {
+  .who-we-are-title {
+    font-size: 30px;
+    top: -110px;
+  }
+}
 @media screen and (max-width: 768px) {
   .who-we-are-title {
     font-size: 30px;
@@ -221,6 +237,11 @@ ol {
   left: 299px;
   z-index: -1;
 }
+@media screen and (max-width: 1200px) {
+  .who-we-are-title:before {
+    border-top: 40px solid transparent;
+  }
+}
 @media screen and (max-width: 768px) {
   .who-we-are-title:before {
     border-top: 44px solid transparent;
@@ -236,6 +257,13 @@ ol {
   left: 47px;
   width: 252px;
   z-index: -1;
+}
+@media screen and (max-width: 1200px) {
+  .who-we-are-title:after {
+    border: 20px solid var(--cRed);
+    left: 89px;
+    width: 210px;
+  }
 }
 @media screen and (max-width: 768px) {
   .who-we-are-title:after {
@@ -255,6 +283,12 @@ ol {
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .who-we-are-subtitle {
+    font-size: 16px;
+    top: -100px;
+  }
 }
 @media screen and (max-width: 768px) {
   .who-we-are-subtitle {
@@ -338,14 +372,15 @@ ol {
   margin-top: -120px;
   font-style: normal;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(255, 255, 255, 0.08);
   align-items: center;
   text-align: center;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .our-family-bg-title {
     font-size: 160px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -363,6 +398,11 @@ ol {
   align-items: center;
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .our-family-title {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   .our-family-title {
     font-size: 30px;
@@ -378,6 +418,11 @@ ol {
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .our-family-subtitle {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 768px) {
   .our-family-subtitle {
@@ -476,7 +521,7 @@ img {
 .event-bg-title {
   display: flex;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(71, 71, 71, 0.22);
   align-items: center;
   text-align: right;
@@ -601,7 +646,7 @@ img {
   position: relative;
   top: -220px;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(255, 255, 255, 0.07);
   text-align: center;
   align-items: center;
@@ -634,10 +679,12 @@ img {
   display: flex;
   margin-top: -300px;
   gap: 65px;
+  padding-top: 50px;
 }
 @media screen and (max-width: 768px) {
   .news__articles {
     padding-top: 65px;
+    gap: 30px;
   }
 }
 
@@ -696,7 +743,7 @@ img {
   position: relative;
   top: -160px;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(255, 255, 255, 0.07);
   text-align: center;
   align-items: center;
@@ -854,6 +901,10 @@ img {
   font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
+.menu__item a {
+  color: var(--cWhite);
+  text-decoration: none;
+}
 
 .social-media {
   text-transform: capitalize;
@@ -877,12 +928,22 @@ img {
 .sign {
   padding-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  .sign {
+    font-size: 12px;
+  }
+}
 
 .subscription-form {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .subscription-form {
+    max-width: 350px;
+  }
 }
 
 .subscription-input {
@@ -902,12 +963,24 @@ img {
   padding-right: 5px;
   width: 300px;
 }
+@media screen and (max-width: 768px) {
+  .subscription-title {
+    font-size: 12px;
+    width: 50%;
+  }
+}
 
 .btn {
   border: 3px solid var(--cWhite);
   padding: 6px 10px;
   position: relative;
   margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 12px;
+    border: 2px solid var(--cWhite);
+  }
 }
 
 .subscription-btn {
@@ -925,6 +998,13 @@ img {
   left: -32px;
   top: -9px;
 }
+@media screen and (max-width: 768px) {
+  .subscription-btn:before {
+    border-bottom: 32px solid transparent;
+    left: -31px;
+    top: -8px;
+  }
+}
 
 .subscription-btn:after {
   position: absolute;
@@ -935,6 +1015,20 @@ img {
   height: 0px;
   left: -23px;
   top: -6px;
+}
+@media screen and (max-width: 768px) {
+  .subscription-btn:after {
+    border-bottom: 28px solid transparent;
+    border-right: 16px solid black;
+    left: -25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .email-logo img {
+    height: 80%;
+    width: 80%;
+  }
 }
 
 .team-header {
@@ -1331,11 +1425,21 @@ img {
 .menu__logo {
   margin-right: 200px;
 }
+@media screen and (max-width: 768px) {
+  .menu__logo {
+    margin-right: 100px;
+  }
+}
 
 .menu__block_col {
   display: block;
   width: 15%;
   color: var(--cWhite);
+}
+@media screen and (max-width: 768px) {
+  .menu__block_col {
+    width: 50%;
+  }
 }
 
 .menu__title {
@@ -1345,6 +1449,11 @@ img {
   font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .menu__title {
+    font-size: 14px;
+  }
+}
 
 .menu__item {
   display: block;
@@ -1352,6 +1461,11 @@ img {
   font-weight: 700;
   font-size: var(--sFontSmall);
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .menu__item {
+    font-size: 12px;
+  }
 }
 
 .social-media {

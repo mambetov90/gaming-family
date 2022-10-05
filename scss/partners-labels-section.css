@@ -53,6 +53,10 @@
   font-size: var(--sFontSmall);
   text-transform: uppercase;
 }
+.menu__item a {
+  color: var(--cWhite);
+  text-decoration: none;
+}
 
 .social-media {
   text-transform: capitalize;
