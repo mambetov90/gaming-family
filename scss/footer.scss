@@ -22,7 +22,7 @@
   justify-content: space-between;
   padding-right: 20px;
   @media screen and (max-width: 768px) {
-    max-width: 350px;;
+    max-width: 350px;
   }
 }
 .subscription-input {
@@ -83,9 +83,9 @@
   left: -23px;
   top: -6px;
   @media screen and (max-width: 768px) {
-  border-bottom: 28px solid transparent;
-  border-right: 16px solid black;
-  left: -25px;
+    border-bottom: 28px solid transparent;
+    border-right: 16px solid black;
+    left: -25px;
   }
 }
 .email-logo img {
