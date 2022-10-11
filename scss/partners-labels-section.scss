@@ -10,6 +10,9 @@
 .labels-block img {
   display: flex;
   margin: 0 auto;
+  @media screen and (max-width: 1200px) {
+    width: 12%;
+  }
 }
 .bottom-menu {
   padding: 0 50px;
@@ -22,9 +25,6 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 200px 0 20px 0;
-}
-.menu__logo {
-  margin-right: 200px;
 }
 .menu__block_col {
   display: block;

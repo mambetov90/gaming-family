@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 
@@ -25,14 +25,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 20px;
+  width: 50%;
 }
-@media screen and (max-width: 768px) {
-  .subscription-form {
-    max-width: 350px;
-  }
-}
-
 .subscription-input {
   padding: 0 5px 0 10px;
   border: none;
@@ -48,11 +42,11 @@
   font-weight: 400;
   font-size: var(--sFontSmall);
   padding-right: 5px;
-  width: 300px;
+  width: 40%;
 }
 @media screen and (max-width: 768px) {
   .subscription-title {
-    font-size: 12px;
+    font-size: 9px;
     width: 50%;
   }
 }

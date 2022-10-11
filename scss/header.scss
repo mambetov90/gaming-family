@@ -27,8 +27,9 @@
 }
 .main-title-text {
   position: absolute;
-  width: 100%;
-  top: 62px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   font-style: normal;
   font-weight: 900;
@@ -39,6 +40,9 @@
   justify-content: center;
   @media screen and (max-width: 1200px) {
     font-size: 60px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 50px;
   }
   @media screen and (max-width: 768px) {
     font-size: 50px;
@@ -72,13 +76,19 @@
   position: absolute;
   bottom: 15px;
   width: 100%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: var(--sFontBody);
   @media screen and (max-width: 1200px) {
-    font-size: 18px;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 12px;
   }
   @media screen and (max-width: 768px) {
-    font-size: var(--sFontSmall);
+    font-size: 10px;
   }
 }
 .navigation {

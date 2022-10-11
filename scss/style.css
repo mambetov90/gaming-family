@@ -78,8 +78,9 @@ ol {
 
 .main-title-text {
   position: absolute;
-  width: 100%;
-  top: 62px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   font-style: normal;
   font-weight: 900;
@@ -92,6 +93,11 @@ ol {
 @media screen and (max-width: 1200px) {
   .main-title-text {
     font-size: 60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-title-text {
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -128,17 +134,25 @@ ol {
   position: absolute;
   bottom: 15px;
   width: 100%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: var(--sFontBody);
 }
 @media screen and (max-width: 1200px) {
   .main-title-subtext {
-    font-size: 18px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-title-subtext {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
   .main-title-subtext {
-    font-size: var(--sFontSmall);
+    font-size: 10px;
   }
 }
 
@@ -331,6 +345,13 @@ ol {
   font-size: 64px;
   color: var(--cRed);
 }
+@media screen and (max-width: 1000px) {
+  .statistic-games-counter,
+.statistic-streams-counter,
+.statistic-teams-counter {
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 768px) {
   .statistic-games-counter,
 .statistic-streams-counter,
@@ -346,6 +367,13 @@ ol {
   font-size: var(--sFontBody);
   text-transform: uppercase;
   color: var(--cWhite);
+}
+@media screen and (max-width: 1000px) {
+  .statistic-games-label,
+.statistic-streams-label,
+.statistic-teams-label {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 768px) {
   .statistic-games-label,
@@ -369,31 +397,38 @@ ol {
 
 .our-family-bg-title {
   display: flex;
-  margin-top: -120px;
+  position: relative;
   font-style: normal;
   font-weight: 900;
   font-size: 180px;
   color: rgba(255, 255, 255, 0.08);
   align-items: center;
   text-align: center;
+  justify-content: center;
+  padding: 0 20px 0 20px;
 }
 @media screen and (max-width: 1200px) {
   .our-family-bg-title {
     font-size: 160px;
     margin-top: 0;
-    justify-content: center;
   }
 }
 @media screen and (max-width: 1100px) {
   .our-family-bg-title {
     font-size: 95px;
-    padding: 0 20px 0 20px;
-    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-family-bg-title {
+    font-size: 65px;
   }
 }
 
 .our-family-title {
-  margin-top: -135px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 900;
   font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
@@ -407,21 +442,22 @@ ol {
 }
 @media screen and (max-width: 1100px) {
   .our-family-title {
-    font-size: 40px;
-    padding-top: 55px;
-    justify-content: center;
+    font-size: 30px;
+    top: 20%;
   }
 }
 @media screen and (max-width: 768px) {
   .our-family-title {
-    font-size: 30px;
-    margin-top: -70px;
-    justify-content: center;
+    font-size: 20px;
+    top: 35%;
   }
 }
 
 .our-family-subtitle {
-  padding-top: 18px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
@@ -434,9 +470,16 @@ ol {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 1100px) {
+  .our-family-subtitle {
+    font-size: 12px;
+    top: 30%;
+  }
+}
 @media screen and (max-width: 768px) {
   .our-family-subtitle {
-    font-size: var(--sFontSmall);
+    font-size: 10px;
+    top: 45%;
   }
 }
 
@@ -913,6 +956,11 @@ img {
   display: flex;
   margin: 0 auto;
 }
+@media screen and (max-width: 1200px) {
+  .labels-block img {
+    width: 12%;
+  }
+}
 
 .bottom-menu {
   padding: 0 50px;
@@ -926,10 +974,6 @@ img {
   justify-content: space-between;
   margin: 0 auto;
   padding: 200px 0 20px 0;
-}
-
-.menu__logo {
-  margin-right: 200px;
 }
 
 .menu__block_col {
@@ -982,7 +1026,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 
@@ -990,14 +1034,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 20px;
+  width: 50%;
 }
-@media screen and (max-width: 768px) {
-  .subscription-form {
-    max-width: 350px;
-  }
-}
-
 .subscription-input {
   padding: 0 5px 0 10px;
   border: none;
@@ -1013,11 +1051,11 @@ img {
   font-weight: 400;
   font-size: var(--sFontSmall);
   padding-right: 5px;
-  width: 300px;
+  width: 40%;
 }
 @media screen and (max-width: 768px) {
   .subscription-title {
-    font-size: 12px;
+    font-size: 9px;
     width: 50%;
   }
 }
@@ -1475,20 +1513,16 @@ img {
 }
 
 .menu__logo {
-  margin-right: 200px;
-}
-@media screen and (max-width: 768px) {
-  .menu__logo {
-    margin-right: 100px;
-  }
+  margin-right: 50px;
 }
 
 .menu__block_col {
   display: block;
   width: 15%;
   color: var(--cWhite);
+  padding-right: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .menu__block_col {
     width: 50%;
   }
