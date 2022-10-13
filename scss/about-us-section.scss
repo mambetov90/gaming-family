@@ -17,8 +17,7 @@
     font-size: 140px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 100px;
-    padding: 0 20px 0 20px;
+    font-size: 60px;
   }
 }
 .who-we-are-title {
@@ -37,8 +36,8 @@
     top: -110px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
-    top: -80px;
+    font-size: 20px;
+    top: -50px;
   }
 }
 .who-we-are-title:before {
@@ -53,7 +52,7 @@
     border-top: 40px solid transparent;
   }
   @media screen and (max-width: 768px) {
-    border-top: 44px solid transparent;
+    border-top: 26px solid transparent;
     border-left: 30px solid var(--cRed);
   }
 }
@@ -72,7 +71,7 @@
   }
   @media screen and (max-width: 768px) {
     border-bottom: 95px solid transparent;
-    border: 22px solid var(--cRed);
+    border: 13px solid var(--cRed);
     left: 74px;
     width: 226px;
   }
@@ -91,8 +90,8 @@
     top: -100px;
   }
   @media screen and (max-width: 768px) {
-    font-size: var(--sFontSmall);
-    top: -65px;
+    font-size: 9px;
+    top: -45px;
   }
 }
 .who-we-are-text {
@@ -105,6 +104,8 @@
   text-align: center;
   @media screen and (max-width: 768px) {
     font-size: 11px;
+    margin: 0 auto;
+    max-width: 90%;
   }
 }
 .statistics {
@@ -113,6 +114,10 @@
   color: var(--cWhite);
   justify-content: space-between;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 .statistic-item {
   display: block;
@@ -127,7 +132,7 @@
     font-size: 50px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 45px;
+    font-size: 25px;
   }
 }
 .statistic-games-label,

@@ -73,7 +73,12 @@ ol {
 }
 
 .main-title-bg {
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+  .main-title-bg {
+    max-width: 70%;
+  }
 }
 
 .main-title-text {
@@ -92,17 +97,17 @@ ol {
 }
 @media screen and (max-width: 1200px) {
   .main-title-text {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 900px) {
   .main-title-text {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 768px) {
   .main-title-text {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 .main-title-text span {
@@ -119,6 +124,11 @@ ol {
   left: 30px;
   z-index: -1;
 }
+@media screen and (max-width: 768px) {
+  .main-title-text span:before {
+    border-bottom: 41px solid transparent;
+  }
+}
 .main-title-text span:after {
   content: "";
   position: absolute;
@@ -128,6 +138,11 @@ ol {
   left: 70px;
   width: 265px;
   z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .main-title-text span:after {
+    border: 20px solid var(--cRed);
+  }
 }
 
 .main-title-subtext {
@@ -172,6 +187,7 @@ ol {
 @media screen and (max-width: 768px) {
   .navigation {
     font-size: 12px;
+    max-width: 80%;
   }
 }
 .navigation a {
@@ -212,8 +228,7 @@ ol {
 }
 @media screen and (max-width: 768px) {
   .who-we-are-bg-title {
-    font-size: 100px;
-    padding: 0 20px 0 20px;
+    font-size: 60px;
   }
 }
 
@@ -237,8 +252,8 @@ ol {
 }
 @media screen and (max-width: 768px) {
   .who-we-are-title {
-    font-size: 30px;
-    top: -80px;
+    font-size: 20px;
+    top: -50px;
   }
 }
 
@@ -258,7 +273,7 @@ ol {
 }
 @media screen and (max-width: 768px) {
   .who-we-are-title:before {
-    border-top: 44px solid transparent;
+    border-top: 26px solid transparent;
     border-left: 30px solid var(--cRed);
   }
 }
@@ -282,7 +297,7 @@ ol {
 @media screen and (max-width: 768px) {
   .who-we-are-title:after {
     border-bottom: 95px solid transparent;
-    border: 22px solid var(--cRed);
+    border: 13px solid var(--cRed);
     left: 74px;
     width: 226px;
   }
@@ -306,8 +321,8 @@ ol {
 }
 @media screen and (max-width: 768px) {
   .who-we-are-subtitle {
-    font-size: var(--sFontSmall);
-    top: -65px;
+    font-size: 9px;
+    top: -45px;
   }
 }
 
@@ -323,6 +338,8 @@ ol {
 @media screen and (max-width: 768px) {
   .who-we-are-text {
     font-size: 11px;
+    margin: 0 auto;
+    max-width: 90%;
   }
 }
 
@@ -332,6 +349,12 @@ ol {
   color: var(--cWhite);
   justify-content: space-between;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .statistics {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .statistic-item {
@@ -356,7 +379,7 @@ ol {
   .statistic-games-counter,
 .statistic-streams-counter,
 .statistic-teams-counter {
-    font-size: 45px;
+    font-size: 25px;
   }
 }
 
@@ -546,6 +569,8 @@ img {
 
 .events {
   display: flex;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .poster-block img {
@@ -630,6 +655,7 @@ img {
 @media screen and (max-width: 768px) {
   .event-title {
     font-size: 20px;
+    top: 90%;
   }
 }
 
@@ -660,7 +686,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .events-schedule__info_day {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -675,7 +701,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .events-schedule__info_month-year {
-    font-size: 9px;
+    font-size: 6px;
   }
 }
 
@@ -686,7 +712,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .events-schedule__info_title {
-    padding-left: 10px;
+    padding: 13px 0px 0px 35px;
   }
 }
 
@@ -702,7 +728,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .events-schedule__info_text {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
@@ -717,7 +743,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .events-schedule__info_location {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 
@@ -873,6 +899,8 @@ img {
 @media screen and (max-width: 768px) {
   .shop__merch {
     margin-top: -100px;
+    max-width: 90%;
+    margin: auto;
   }
 }
 

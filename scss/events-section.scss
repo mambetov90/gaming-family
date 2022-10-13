@@ -7,6 +7,8 @@
 }
 .events {
   display: flex;
+  max-width: 90%;
+  margin: 0 auto;
 }
 .poster-block img {
   max-height: 100%;
@@ -73,6 +75,7 @@
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
+    top: 90%;
   }
 }
 .events-schedule__info {
@@ -94,7 +97,7 @@
     justify-content: center;
   }
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .events-schedule__info_month-year {
@@ -104,7 +107,7 @@
     font-size: 11px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 9px;
+    font-size: 6px;
   }
 }
 .events-schedule__info_title {
@@ -112,7 +115,7 @@
   align-items: center;
   justify-content: left;
   @media screen and (max-width: 768px) {
-    padding-left: 10px;
+    padding: 13px 0px 0px 35px;
   }
 }
 .events-schedule__info_text {
@@ -123,7 +126,7 @@
     font-size: 15px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 .events-schedule__info_location {
@@ -133,7 +136,7 @@
     font-size: 11px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 .events-schedule__info_location span {
