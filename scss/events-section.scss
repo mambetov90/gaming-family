@@ -1,8 +1,8 @@
 .events-section {
   position: relative;
-  background: url(../images/events-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
+  // background: url(../images/events-bg.png) no-repeat;
+  // background-size: cover;
+  // height: 811px;
   padding-top: 100px;
 }
 .events {
@@ -71,7 +71,6 @@
   }
   @media screen and (max-width: 950px) {
     font-size: 26px;
-    top: 70%;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;

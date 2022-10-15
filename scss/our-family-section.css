@@ -1,7 +1,5 @@
 .section-our-family {
   position: relative;
-  background: url(../images/our-family-bg.png) no-repeat;
-  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,6 +1,4 @@
 .footer {
-  background: url(../images/footer.png) no-repeat;
-  background-size: cover;
   padding: 100px 50px;
 }
 
@@ -17,7 +15,7 @@
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: 9px;
+    font-size: var(--sFontExtraSmall);
   }
 }
 
@@ -27,6 +25,7 @@
   justify-content: space-between;
   width: 50%;
 }
+
 .subscription-input {
   padding: 0 5px 0 10px;
   border: none;
@@ -46,7 +45,7 @@
 }
 @media screen and (max-width: 768px) {
   .subscription-title {
-    font-size: 9px;
+    font-size: var(--sFontExtraSmall);
     width: 50%;
   }
 }

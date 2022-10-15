@@ -5,6 +5,8 @@ body {
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  background: url(../images/playgaming-bg.png) no-repeat fixed;
+  background-size: cover;
 }
 
 *,
@@ -41,16 +43,11 @@ ol {
   --cRed: #d62027;
   --cBlack: #000000;
   --sFontBody: 18px;
+  --sFontExtraSmall: 9px;
   --sFontSmall: 15px;
   --sFontMedium: 16px;
   --sFontHuge: 24px;
   --sFontExtraLarge: 48px;
-}
-
-.section-main-intro {
-  background: url(../images/playgaming-bg.png) no-repeat;
-  background-size: cover;
-  height: 810px;
 }
 
 .main-top-logo {
@@ -204,8 +201,6 @@ ol {
 }
 
 .section-who-we-are {
-  background: url(../images/who-we-are-bg.png) no-repeat;
-  background-size: cover;
   padding-bottom: 120px;
 }
 
@@ -244,6 +239,50 @@ ol {
   margin: 0 auto;
   z-index: 1;
 }
+.who-we-are-title::before {
+  content: "";
+  position: absolute;
+  border-top: 60px solid transparent;
+  border-left: 31px solid var(--cRed);
+  top: 0px;
+  left: 299px;
+  z-index: -1;
+}
+@media screen and (max-width: 1200px) {
+  .who-we-are-title::before {
+    border-top: 40px solid transparent;
+  }
+}
+@media screen and (max-width: 768px) {
+  .who-we-are-title::before {
+    border-top: 26px solid transparent;
+    border-left: 30px solid var(--cRed);
+  }
+}
+.who-we-are-title::after {
+  content: "";
+  position: absolute;
+  border-bottom: 93px solid transparent;
+  border: 30px solid var(--cRed);
+  left: 47px;
+  width: 252px;
+  z-index: -1;
+}
+@media screen and (max-width: 1200px) {
+  .who-we-are-title::after {
+    border: 20px solid var(--cRed);
+    left: 89px;
+    width: 210px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .who-we-are-title::after {
+    border-bottom: 95px solid transparent;
+    border: 13px solid var(--cRed);
+    left: 74px;
+    width: 226px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .who-we-are-title {
     font-size: 30px;
@@ -254,52 +293,6 @@ ol {
   .who-we-are-title {
     font-size: 20px;
     top: -50px;
-  }
-}
-
-.who-we-are-title:before {
-  content: "";
-  position: absolute;
-  border-top: 60px solid transparent;
-  border-left: 31px solid var(--cRed);
-  top: 0px;
-  left: 299px;
-  z-index: -1;
-}
-@media screen and (max-width: 1200px) {
-  .who-we-are-title:before {
-    border-top: 40px solid transparent;
-  }
-}
-@media screen and (max-width: 768px) {
-  .who-we-are-title:before {
-    border-top: 26px solid transparent;
-    border-left: 30px solid var(--cRed);
-  }
-}
-
-.who-we-are-title:after {
-  content: "";
-  position: absolute;
-  border-bottom: 93px solid transparent;
-  border: 30px solid var(--cRed);
-  left: 47px;
-  width: 252px;
-  z-index: -1;
-}
-@media screen and (max-width: 1200px) {
-  .who-we-are-title:after {
-    border: 20px solid var(--cRed);
-    left: 89px;
-    width: 210px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .who-we-are-title:after {
-    border-bottom: 95px solid transparent;
-    border: 13px solid var(--cRed);
-    left: 74px;
-    width: 226px;
   }
 }
 
@@ -321,7 +314,7 @@ ol {
 }
 @media screen and (max-width: 768px) {
   .who-we-are-subtitle {
-    font-size: 9px;
+    font-size: var(--sFontExtraSmall);
     top: -45px;
   }
 }
@@ -408,8 +401,6 @@ ol {
 
 .section-our-family {
   position: relative;
-  background: url(../images/our-family-bg.png) no-repeat;
-  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -561,9 +552,6 @@ img {
 
 .events-section {
   position: relative;
-  background: url(../images/events-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
   padding-top: 100px;
 }
 
@@ -649,7 +637,6 @@ img {
 @media screen and (max-width: 950px) {
   .event-title {
     font-size: 26px;
-    top: 70%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -751,11 +738,6 @@ img {
   color: var(--cRed);
 }
 
-.news-section {
-  background: url(../images/news-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
-}
 @media screen and (max-width: 768px) {
   .news-section {
     height: auto;
@@ -846,8 +828,6 @@ img {
 }
 
 .shop-section {
-  background: url(../images/shop-bg.png) no-repeat;
-  background-size: cover;
   padding-bottom: 100px;
 }
 
@@ -1036,8 +1016,6 @@ img {
 }
 
 .footer {
-  background: url(../images/footer.png) no-repeat;
-  background-size: cover;
   padding: 100px 50px;
 }
 
@@ -1054,7 +1032,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: 9px;
+    font-size: var(--sFontExtraSmall);
   }
 }
 
@@ -1064,6 +1042,7 @@ img {
   justify-content: space-between;
   width: 50%;
 }
+
 .subscription-input {
   padding: 0 5px 0 10px;
   border: none;
@@ -1083,7 +1062,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .subscription-title {
-    font-size: 9px;
+    font-size: var(--sFontExtraSmall);
     width: 50%;
   }
 }
@@ -1509,9 +1488,6 @@ img {
 
 .partners-block {
   position: relative;
-  background: url(../images/partners-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
 }
 
 .labels-block {
