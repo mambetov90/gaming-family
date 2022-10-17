@@ -109,8 +109,11 @@
     font-size: 12px;
     max-width: 80%;
   }
+  div {
+    display: inline-flex;
+    padding: 10px;
+  }
   a {
-    padding-right: 35px;
     color: var(--cWhite);
     text-decoration: none;
     cursor: pointer;

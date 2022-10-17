@@ -31,6 +31,11 @@
   width: 33.3333%;
   color: var(--cWhite);
 }
+.menu__block_col.soc-media {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
 .menu__title {
   display: block;
   margin-bottom: 45px;
@@ -47,6 +52,9 @@
   a {
     color: var(--cWhite);
     text-decoration: none;
+  }
+  a:hover {
+    color: var(--cGray);
   }
 }
 .social-media {

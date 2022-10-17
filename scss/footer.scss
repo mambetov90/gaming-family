@@ -13,7 +13,7 @@
 .sign {
   padding-right: 20px;
   @media screen and (max-width: 768px) {
-    font-size: var(--sFontExtraSmall);
+    display: none;
   }
 }
 .subscription-form {
@@ -21,6 +21,9 @@
   align-items: center;
   justify-content: space-between;
   width: 50%;
+  @media screen and (max-width: 768px) {
+    margin: auto;
+  }
 }
 .subscription-input {
   padding: 0 5px 0 10px;

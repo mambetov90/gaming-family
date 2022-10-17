@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: var(--sFontExtraSmall);
+    display: none;
   }
 }
 
@@ -24,6 +24,11 @@
   align-items: center;
   justify-content: space-between;
   width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .subscription-form {
+    margin: auto;
+  }
 }
 
 .subscription-input {

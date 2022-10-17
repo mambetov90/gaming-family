@@ -187,8 +187,11 @@ ol {
     max-width: 80%;
   }
 }
+.navigation div {
+  display: inline-flex;
+  padding: 10px;
+}
 .navigation a {
-  padding-right: 35px;
   color: var(--cWhite);
   text-decoration: none;
   cursor: pointer;
@@ -218,7 +221,7 @@ ol {
 }
 @media screen and (max-width: 1200px) {
   .who-we-are-bg-title {
-    font-size: 140px;
+    font-size: 100px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -285,8 +288,8 @@ ol {
 }
 @media screen and (max-width: 1200px) {
   .who-we-are-title {
-    font-size: 30px;
-    top: -110px;
+    font-size: 25px;
+    top: -70px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -308,8 +311,8 @@ ol {
 }
 @media screen and (max-width: 1200px) {
   .who-we-are-subtitle {
-    font-size: 16px;
-    top: -100px;
+    font-size: 13px;
+    top: -50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -553,6 +556,7 @@ img {
 .events-section {
   position: relative;
   padding-top: 100px;
+  padding-bottom: 300px;
 }
 
 .events {
@@ -738,6 +742,9 @@ img {
   color: var(--cRed);
 }
 
+.news-section {
+  padding-bottom: 300px;
+}
 @media screen and (max-width: 768px) {
   .news-section {
     height: auto;
@@ -990,6 +997,12 @@ img {
   color: var(--cWhite);
 }
 
+@media screen and (max-width: 600px) {
+  .menu__block_col.soc-media {
+    display: none;
+  }
+}
+
 .menu__title {
   display: block;
   margin-bottom: 45px;
@@ -1008,6 +1021,9 @@ img {
 .menu__item a {
   color: var(--cWhite);
   text-decoration: none;
+}
+.menu__item a:hover {
+  color: var(--cGray);
 }
 
 .social-media {
@@ -1032,7 +1048,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .sign {
-    font-size: var(--sFontExtraSmall);
+    display: none;
   }
 }
 
@@ -1041,6 +1057,11 @@ img {
   align-items: center;
   justify-content: space-between;
   width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .subscription-form {
+    margin: auto;
+  }
 }
 
 .subscription-input {

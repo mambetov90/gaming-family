@@ -135,8 +135,11 @@
     max-width: 80%;
   }
 }
+.navigation div {
+  display: inline-flex;
+  padding: 10px;
+}
 .navigation a {
-  padding-right: 35px;
   color: var(--cWhite);
   text-decoration: none;
   cursor: pointer;
