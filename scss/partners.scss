@@ -4,7 +4,7 @@
 .labels-block {
   display: flex;
   flex-wrap: wrap;
-  padding: 70px 10px 0 10px;
+  padding: 150px 10px 0 10px;
   max-width: 1285px;
   justify-content: center;
   text-align: center;
@@ -17,7 +17,7 @@
     }
   }
 }
-.team-menu__block {
+.team-menu-block {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -63,7 +63,6 @@
 }
 .input-form {
   display: block;
-  margin-right: 200px;
   margin-top: -100px;
   background-color: var(--cBlack);
   box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.25);

@@ -1,13 +1,10 @@
 .players-block {
   position: relative;
-  background: url(../images/players-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
 }
 
 .logo-player-block {
   position: relative;
-  top: -100px;
+  padding-top: 90px;
   display: block;
   color: var(--cWhite);
   margin: auto;
@@ -43,7 +40,7 @@
 
 .players-table {
   position: relative;
-  top: -100px;
+  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -1,5 +1,3 @@
 .team-footer {
-  background: url(../images/footer-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
+  min-width: 1350px;
 }

@@ -1,15 +1,11 @@
 .timeline-block {
   position: relative;
-  background: url(../images/timeline-bg.png) no-repeat;
-  background-size: cover;
-  height: 811px;
 }
 
 .logo-timeline-block {
   position: relative;
   display: block;
   color: var(--cWhite);
-  margin-top: 50px;
   align-items: center;
   text-align: center;
 }

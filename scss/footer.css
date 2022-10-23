@@ -1,5 +1,6 @@
 .footer {
   padding: 100px 50px;
+  display: inline;
 }
 
 .footer__block {
