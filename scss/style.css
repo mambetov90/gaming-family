@@ -1177,6 +1177,9 @@ img {
 .header__navbar a {
   padding-right: 35px;
 }
+.header__navbar a:hover {
+  cursor: pointer;
+}
 .header__navbar a:last-child {
   padding-right: 0;
 }
@@ -1262,7 +1265,6 @@ img {
 .team-block {
   background: url(../images/team-rectangle.png) 90px no-repeat;
   background-size: contain;
-  background-color: rgba(0, 0, 0, 0.66);
   filter: drop-shadow(0px 0px 140px rgba(83, 83, 83, 0.25));
 }
 
@@ -1277,6 +1279,10 @@ img {
 }
 
 .team-content {
+  width: 50%;
+}
+
+.team-pic {
   width: 50%;
 }
 
@@ -1333,9 +1339,11 @@ img {
 }
 
 .wolsung-wall {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+  height: 539px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: auto auto;
 }
 
 .players-block {
@@ -1362,7 +1370,7 @@ img {
   font-weight: 900;
   font-size: 48px;
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1373,7 +1381,7 @@ img {
   font-size: 18px;
   text-transform: uppercase;
   position: absolute;
-  top: 75%;
+  top: 82%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1391,6 +1399,7 @@ img {
   flex-direction: column;
   display: flex;
   margin: 5px;
+  max-height: 300px;
 }
 
 .players__col_bg {

@@ -22,6 +22,9 @@
   a {
     padding-right: 35px;
   }
+  a:hover {
+    cursor: pointer;
+  }
   a:last-child {
     padding-right: 0;
   }

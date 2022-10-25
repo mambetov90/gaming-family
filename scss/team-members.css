@@ -25,6 +25,9 @@
 .header__navbar a {
   padding-right: 35px;
 }
+.header__navbar a:hover {
+  cursor: pointer;
+}
 .header__navbar a:last-child {
   padding-right: 0;
 }
