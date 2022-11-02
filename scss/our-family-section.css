@@ -1,37 +1,99 @@
 .section-our-family {
   position: relative;
-  background: url(../images/our-family-bg.png) no-repeat;
-  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .our-family {
+    padding-top: 50px;
+  }
 }
 
 .our-family-bg-title {
   display: flex;
-  margin-top: -120px;
+  position: relative;
   font-style: normal;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(255, 255, 255, 0.08);
   align-items: center;
   text-align: center;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+}
+@media screen and (max-width: 1200px) {
+  .our-family-bg-title {
+    font-size: 160px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .our-family-bg-title {
+    font-size: 95px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-family-bg-title {
+    font-size: 65px;
+  }
 }
 
 .our-family-title {
-  margin-top: -135px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 900;
   font-size: var(--sFontExtraLarge);
   color: var(--cWhite);
   align-items: center;
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .our-family-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .our-family-title {
+    font-size: 30px;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-family-title {
+    font-size: 20px;
+    top: 35%;
+  }
+}
 
 .our-family-subtitle {
-  padding-top: 18px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: var(--sFontBody);
   text-transform: uppercase;
   color: var(--cWhite);
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .our-family-subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .our-family-subtitle {
+    font-size: 12px;
+    top: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .our-family-subtitle {
+    font-size: 10px;
+    top: 45%;
+  }
 }
 
 .carousel-players {
@@ -52,6 +114,12 @@
   height: 51px;
   cursor: pointer;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .arrow-btn {
+    width: 27px;
+    height: 27px;
+  }
 }
 
 .player-col {

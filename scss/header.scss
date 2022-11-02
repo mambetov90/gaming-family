@@ -1,8 +1,3 @@
-.section-main-intro {
-  background: url(../images/playgaming-bg.png) no-repeat;
-  background-size: cover;
-  height: 810px;
-}
 .main-top-logo {
   display: block;
   max-width: 950px;
@@ -20,10 +15,17 @@
   color: var(--cWhite);
   z-index: 1;
 }
+.main-title-bg {
+  padding: 0 20px;
+  @media screen and (max-width: 768px) {
+    max-width: 70%;
+  }
+}
 .main-title-text {
   position: absolute;
-  width: 100%;
-  top: 62px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   font-style: normal;
   font-weight: 900;
@@ -32,6 +34,15 @@
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
+  @media screen and (max-width: 1200px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
   span {
     position: relative;
     padding: 0 20px;
@@ -45,6 +56,9 @@
     top: 0px;
     left: 30px;
     z-index: -1;
+    @media screen and (max-width: 768px) {
+      border-bottom: 41px solid transparent;
+    }
   }
   span:after {
     content: "";
@@ -55,14 +69,29 @@
     left: 70px;
     width: 265px;
     z-index: -1;
+    @media screen and (max-width: 768px) {
+      border: 20px solid var(--cRed);
+    }
   }
 }
 .main-title-subtext {
   position: absolute;
   bottom: 15px;
   width: 100%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: var(--sFontBody);
+  @media screen and (max-width: 1200px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
 }
 .navigation {
   flex-direction: row;
@@ -75,9 +104,22 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-
+  margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    max-width: 80%;
+  }
+  div {
+    display: inline-flex;
+    padding: 10px;
+  }
   a {
-    padding-right: 35px;
+    color: var(--cWhite);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover {
+    color: var(--cGray);
   }
   a:last-child {
     padding-right: 0;

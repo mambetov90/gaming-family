@@ -1,21 +1,29 @@
 .shop-section {
-  background: url(../images/shop-bg.png) no-repeat;
-  background-size: cover;
   padding-bottom: 100px;
 }
 
 .shop-block {
   max-width: 1485px;
 }
+@media screen and (max-width: 768px) {
+  .shop-block {
+    padding: 0 20px;
+  }
+}
 
 .shop-bg-title {
   position: relative;
   top: -160px;
   font-weight: 900;
-  font-size: 190px;
+  font-size: 180px;
   color: rgba(255, 255, 255, 0.07);
   text-align: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .shop-bg-title {
+    top: -60px;
+  }
 }
 
 .shop-title {
@@ -27,11 +35,24 @@
   text-align: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .shop-title {
+    top: -190px;
+  }
+}
 
 .shop__merch {
   margin-top: -200px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .shop__merch {
+    margin-top: -100px;
+    max-width: 90%;
+    margin: auto;
+  }
 }
 
 .shop__merch_bg {
@@ -69,13 +90,19 @@
   width: 16px;
   bottom: 12px;
   right: 12px;
+  cursor: pointer;
 }
 
 .shop__merch_col {
-  max-width: 25%;
+  max-width: 20%;
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin: 20px;
+}
+@media screen and (max-width: 768px) {
+  .shop__merch_col {
+    max-width: 42%;
+  }
 }
 
 .shop__merch_col-title {

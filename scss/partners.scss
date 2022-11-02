@@ -1,0 +1,119 @@
+.partners-block {
+  position: relative;
+}
+.labels-block {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 10px 0 10px;
+  max-width: 1285px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  img {
+    @media screen and (max-width: 768px) {
+      padding: 0 10px;
+      max-width: 100px;
+    }
+  }
+}
+.team-menu-block {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 200px 0 20px 50px;
+  width: 100%;
+  float: left;
+}
+.menu__logo {
+  margin-right: 50px;
+}
+.menu__block_col {
+  display: block;
+  width: 15%;
+  color: var(--cWhite);
+  padding-right: 5px;
+  @media screen and (max-width: 1100px) {
+    width: 50%;
+  }
+}
+.menu__title {
+  display: block;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: var(--sFontSmall);
+  text-transform: uppercase;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+.menu__item {
+  display: block;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: var(--sFontSmall);
+  text-transform: uppercase;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+.social-media {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.input-form {
+  display: block;
+  margin-top: -100px;
+  background-color: var(--cBlack);
+  box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.25);
+  max-width: 390px;
+  width: 100%;
+}
+.form__header {
+  display: block;
+  background-color: var(--cRed);
+  padding: 35px 80px;
+  color: var(--cWhite);
+  font-weight: 800;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.form__content {
+  padding: 50px 30px 140px 30px;
+  background-color: transparent;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--cWhite);
+  background: transparent;
+  padding: 6px;
+}
+.form__content_name,
+.form__content_mail,
+.form__content_questions {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--cWhite);
+}
+.form__content_name-placeholder::placeholder,
+.form__content_mail-placeholder[placeholder],
+.form__content_questions-placeholder[placeholder] {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--cGray);
+}
+.submit-btn {
+  margin-top: 30px;
+  color: var(--cRed);
+  float: right;
+  border: 4px solid var(--cRed);
+  background: transparent;
+  padding: 17px 35px 17px 50px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.submit-btn:hover {
+  cursor: pointer;
+}

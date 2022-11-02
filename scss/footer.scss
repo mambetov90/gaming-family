@@ -1,17 +1,28 @@
 .footer {
-  background: url(../images/footer.png) no-repeat;
-  background-size: cover;
   padding: 100px 50px;
+  display: inline;
 }
 .footer__block {
   display: flex;
   justify-content: space-between;
   color: var(--cWhite);
+  max-width: 1285px;
+  margin: auto;
+}
+.sign {
+  padding-right: 20px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 .subscription-form {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
+  width: 50%;
+  @media screen and (max-width: 768px) {
+    margin: auto;
+  }
 }
 .subscription-input {
   padding: 0 5px 0 10px;
@@ -26,12 +37,21 @@
   font-weight: 400;
   font-size: var(--sFontSmall);
   padding-right: 5px;
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    font-size: var(--sFontExtraSmall);
+    width: 50%;
+  }
 }
 .btn {
   border: 3px solid var(--cWhite);
-  padding-right: 5px;
+  padding: 6px 10px;
   position: relative;
   margin-left: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    border: 2px solid var(--cWhite);
+  }
 }
 .subscription-btn {
   position: relative;
@@ -40,20 +60,36 @@
 }
 .subscription-btn:before {
   position: absolute;
-  border-bottom: 25px solid transparent;
-  border-right: 20px solid var(--cWhite);
+  border-bottom: 37px solid transparent;
+  border-right: 19px solid var(--cWhite);
   content: "";
   height: 0;
-  left: -22px;
-  top: -3px;
+  left: -32px;
+  top: -9px;
+  @media screen and (max-width: 768px) {
+    border-bottom: 32px solid transparent;
+    left: -31px;
+    top: -8px;
+  }
 }
 .subscription-btn:after {
   position: absolute;
-  border-bottom: 19px solid transparent;
-  border-right: 16px solid black;
+  border-bottom: 31px solid transparent;
+  border-right: 13px solid black;
   border-top: 0 solid transparent;
   content: "";
   height: 0px;
-  left: -16px;
-  top: 0;
+  left: -23px;
+  top: -6px;
+  @media screen and (max-width: 768px) {
+    border-bottom: 28px solid transparent;
+    border-right: 16px solid black;
+    left: -25px;
+  }
+}
+.email-logo img {
+  @media screen and (max-width: 768px) {
+    height: 80%;
+    width: 80%;
+  }
 }
