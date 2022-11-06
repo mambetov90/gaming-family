@@ -41,14 +41,13 @@
   justify-content: center;
 }
 .players__col {
-  width: 30%;
-  flex-direction: column;
+  width: 26%;
   display: flex;
-  margin: 5px;
-  max-height: 300px;
+  margin: 3px;
+  margin-bottom: -50px;
 }
-.players__col_bg {
-  background: url(../images/inde-bg.png) no-repeat center;
+.players__col_bg { 
+  background: url(../images/inde-bg.png) no-repeat center; //move to __col
   position: relative;
   background-size: cover;
   height: 351px;
@@ -56,10 +55,6 @@
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
-  align-items: center;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
 }
 .players__col_person {
   display: block;

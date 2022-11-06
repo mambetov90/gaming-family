@@ -47,11 +47,10 @@
 }
 
 .players__col {
-  width: 30%;
-  flex-direction: column;
+  width: 26%;
   display: flex;
-  margin: 5px;
-  max-height: 300px;
+  margin: 3px;
+  margin-bottom: -50px;
 }
 
 .players__col_bg {
@@ -63,10 +62,6 @@
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
-  align-items: center;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .players__col_person {

@@ -33,7 +33,7 @@ ol {
 
 .container {
   max-width: 1285px;
-  padding: 0 80px;
+  padding: 0 auto;
   margin: 0 auto;
 }
 
@@ -1271,6 +1271,10 @@ img {
   max-width: 1500px;
 }
 
+.container {
+  padding: 0;
+}
+
 .team-container {
   padding-top: 155px;
   display: flex;
@@ -1278,7 +1282,7 @@ img {
 }
 
 .team-content {
-  width: 50%;
+  width: 43%;
 }
 
 .team-pic {
@@ -1332,6 +1336,9 @@ img {
   line-height: 1.8;
   font-weight: 500;
 }
+.team-content__text p {
+  margin: 0px;
+}
 
 .team-img {
   width: 50%;
@@ -1342,6 +1349,7 @@ img {
   width: 100%;
   object-fit: contain;
   display: block;
+  padding-top: 120px;
   margin: auto auto;
 }
 
@@ -1394,11 +1402,10 @@ img {
 }
 
 .players__col {
-  width: 30%;
-  flex-direction: column;
+  width: 26%;
   display: flex;
-  margin: 5px;
-  max-height: 300px;
+  margin: 3px;
+  margin-bottom: -50px;
 }
 
 .players__col_bg {
@@ -1410,10 +1417,6 @@ img {
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
-  align-items: center;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .players__col_person {

@@ -8,6 +8,10 @@
   max-width: 1500px;
 }
 
+.container {
+  padding: 0;
+}
+
 .team-container {
   padding-top: 155px;
   display: flex;
@@ -15,7 +19,7 @@
 }
 
 .team-content {
-  width: 50%;
+  width: 43%;
 }
 
 .team-pic {
@@ -69,6 +73,9 @@
   line-height: 1.8;
   font-weight: 500;
 }
+.team-content__text p {
+  margin: 0px;
+}
 
 .team-img {
   width: 50%;
@@ -79,5 +86,6 @@
   width: 100%;
   object-fit: contain;
   display: block;
+  padding-top: 120px;
   margin: auto auto;
 }
