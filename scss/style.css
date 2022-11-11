@@ -1276,7 +1276,7 @@ img {
 }
 
 .team-container {
-  padding-top: 155px;
+  padding: 155px 100px 0 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -1300,7 +1300,7 @@ img {
 .logo-team-bg-title {
   color: rgba(255, 255, 255, 0.04);
   font-weight: 900;
-  font-size: 190px;
+  font-size: 160px;
 }
 
 .logo-team-title {
@@ -1332,7 +1332,7 @@ img {
 
 .team-content__text {
   color: var(--cWhite);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8;
   font-weight: 500;
 }
@@ -1345,11 +1345,12 @@ img {
 }
 
 .wolsung-wall {
-  height: 539px;
+  padding-top: 80px;
+  max-height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
-  padding-top: 120px;
   margin: auto auto;
 }
 
