@@ -1,5 +1,6 @@
 .players-block {
   position: relative;
+  padding: 0 100px;
 }
 .logo-player-block {
   position: relative;
@@ -45,6 +46,12 @@
   display: flex;
   margin: 3px;
   margin-bottom: -50px;
+  @media screen and (max-width: 1300px) {
+    width: 38%;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 46%;
+  }
 }
 .players__col_bg { 
   background: url(../images/inde-bg.png) no-repeat center;

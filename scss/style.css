@@ -1149,6 +1149,10 @@ img {
   }
 }
 
+.page {
+  width: fit-content;
+}
+
 .team-header {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -1161,11 +1165,16 @@ img {
   padding: 30px 35px;
 }
 
+.header-block {
+  padding: 0 100px;
+}
+
 .header__navbar {
   display: flex;
   color: var(--cWhite);
   font-weight: 700;
   font-size: 15px;
+  padding: 0 50px;
   text-transform: uppercase;
   text-align: center;
   align-items: center;
@@ -1302,6 +1311,11 @@ img {
   font-weight: 900;
   font-size: 160px;
 }
+@media screen and (max-width: 1200px) {
+  .logo-team-bg-title {
+    font-size: 140px;
+  }
+}
 
 .logo-team-title {
   font-weight: 900;
@@ -1336,6 +1350,11 @@ img {
   line-height: 1.8;
   font-weight: 500;
 }
+@media screen and (max-width: 1200px) {
+  .team-content__text {
+    font-size: 12px;
+  }
+}
 .team-content__text p {
   margin: 0px;
 }
@@ -1356,6 +1375,7 @@ img {
 
 .players-block {
   position: relative;
+  padding: 0 100px;
 }
 
 .logo-player-block {
@@ -1408,6 +1428,16 @@ img {
   margin: 3px;
   margin-bottom: -50px;
 }
+@media screen and (max-width: 1300px) {
+  .players__col {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .players__col {
+    width: 46%;
+  }
+}
 
 .players__col_bg {
   background: url(../images/inde-bg.png) no-repeat center;
@@ -1430,6 +1460,7 @@ img {
 
 .timeline-block {
   position: relative;
+  padding: 0 100px;
 }
 
 .logo-timeline-block {

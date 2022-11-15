@@ -1,3 +1,6 @@
+.page {
+  width: fit-content;
+}
 .team-header {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -8,11 +11,15 @@
   justify-content: space-between;
   padding: 30px 35px;
 }
+.header-block {
+  padding: 0 100px;
+}
 .header__navbar {
   display: flex;
   color: var(--cWhite);
   font-weight: 700;
   font-size: 15px;
+  padding: 0 50px;
   text-transform: uppercase;
   text-align: center;
   align-items: center;

@@ -39,6 +39,11 @@
   font-weight: 900;
   font-size: 160px;
 }
+@media screen and (max-width: 1200px) {
+  .logo-team-bg-title {
+    font-size: 140px;
+  }
+}
 
 .logo-team-title {
   font-weight: 900;
@@ -72,6 +77,11 @@
   font-size: 14px;
   line-height: 1.8;
   font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .team-content__text {
+    font-size: 12px;
+  }
 }
 .team-content__text p {
   margin: 0px;

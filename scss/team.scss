@@ -31,6 +31,9 @@
   color: rgba(255, 255, 255, 0.04);
   font-weight: 900;
   font-size: 160px;
+  @media screen and (max-width: 1200px) {
+    font-size: 140px;
+  }
 }
 .logo-team-title {
   font-weight: 900;
@@ -63,6 +66,9 @@
   font-size: 14px;
   line-height: 1.8;
   font-weight: 500;
+  @media screen and (max-width: 1200px) {
+    font-size: 12px;
+  }
   p {
     margin: 0px;
   }

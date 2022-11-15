@@ -1,5 +1,6 @@
 .players-block {
   position: relative;
+  padding: 0 100px;
 }
 
 .logo-player-block {
@@ -51,6 +52,16 @@
   display: flex;
   margin: 3px;
   margin-bottom: -50px;
+}
+@media screen and (max-width: 1300px) {
+  .players__col {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .players__col {
+    width: 46%;
+  }
 }
 
 .players__col_bg {
